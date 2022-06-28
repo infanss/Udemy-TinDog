@@ -1,0 +1,183 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Headings */
+
+.big-heading{
+    font-weight: 750;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.testimonials-text, .pricing-heading{
+    font-weight: lighter;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.tariff{
+    font-size: 1.5rem;
+}
+
+/* Background colors */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+#testimonials, #press{
+    background-color: #ef8172;
+}
+
+/* Navigation Bar  */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    padding: 0 18px;
+}
+
+.navbar-nav{
+    margin-left: 50%;
+}
+
+
+/* Title  */
+
+#title{
+    text-align: left;
+}
+
+
+/* Download buttons */
+
+.download-buttons{
+    margin: 15% 3% 10% 0%;
+}
+
+.ios-button:hover{
+    background-color: rgb(77, 75, 75);
+    border-color: rgb(77, 75, 75);
+}
+
+/* Dog image */
+
+.dog-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+   
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.icon-for-features{
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.icon-for-features:hover{
+    color: #ff4c68;
+}
+
+.text-features{
+    line-height: 2;
+    margin-top: 1rem;
+    color: rgb(100, 98, 98);
+}
+
+
+
+/* Testimonials */
+
+
+.testimonials-img{
+    border-radius: 100%;
+    width: 15%;
+    margin: 1rem;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 80px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing  */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:1010px){
+    #title{
+        text-align: center;
+    }
+    .dog-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to action */
+
+.cta-title{
+    padding: 10% 20% 4%;
+}
+
+.cta-btn{
+    margin: 1% 1% 10%;
+}
+
+/* Footer */
+
+#footer{
+    margin-bottom: 3.5rem;
+    color: rgb(132, 131, 131);
+}
+
+.footer-icons{
+    padding: 5% 1% 3%;
+    cursor: pointer;
+}
